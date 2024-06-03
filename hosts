@@ -1,0 +1,10 @@
+[kube-master]
+master ansible_host=16.171.46.102
+
+[kube-nodes]
+node1 ansible_host=16.170.210.57
+node2 ansible_host=16.16.146.132
+
+[all:vars]
+ansible_user=ubuntu
+ansible_ssh_private_key_file=/path/to/pem/file
